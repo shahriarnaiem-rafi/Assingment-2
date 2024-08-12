@@ -5,9 +5,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:"Inter", sans-serif ;
 }
 :root{
     --primary-color:#E6533C;
+    --secondary-color:#afafaf;
 }
 
 /* nav section */
@@ -16,12 +18,14 @@ header{
 }
 .nav{
     margin: 0px 100px;
+
 }
 .nav-main{   
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .nav-main h4{
     
@@ -69,7 +73,6 @@ header{
 .banner-header{
     font-size: 65px;
     font-weight: 900;
-    font-family: "Inter", sans-serif;
     color: white;
 }
 .banner-header span{
@@ -78,7 +81,7 @@ header{
 .banner-description{
     font-weight: 400;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
+    color:  var(--secondary-color);
 }
 .banner-btn{
     margin-top: 28px;
@@ -86,8 +89,7 @@ header{
     border-radius: 20px;
     color: white;
     font-size: 15px;
-    font-weight: 700;
-    font-family: "Inter", sans-serif;
+    font-weight: 600;
     background-color: #303030;
     border: 1px solid white;
 }
@@ -106,7 +108,7 @@ header{
     padding: 5px 20px;
     border-radius: 10px 10px;
     position: absolute;
-    margin-top: -500px;
+    margin-top: -480px;
     margin-left: 200px;
 
 }
@@ -132,10 +134,50 @@ header{
 .banner-image-up-header{
     color: white;
     font-size: 40px;
-    font-weight: 700;
-    font-family: "Inter", sans-serif;
+    font-weight: 800;
 }
 .banner-image-up p{
     color: #15151ab5;
 
+}
+main{
+    background-color: black;
+}
+/* run extra section */
+
+.run-extra-child{ 
+    margin: 0 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 165px;
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 10px;
+}
+.run-extra-grandchild{
+    width: 400px;
+    text-align: center;
+    align-content: center;
+}
+.run-extra-grandchild-header{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+.run-extra-grandchild-description{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    color: var(--secondary-color);
+}
+.run-extra-grandchild-img{
+    margin-top: 3em;
+    width: 366px;
+    height: 280px;
+    justify-content: center;
+}
+.run-extra-grandchild-img img{
+    width: 100%;
+    border-radius: 20px;
 }

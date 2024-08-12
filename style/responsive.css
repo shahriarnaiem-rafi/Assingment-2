@@ -13,5 +13,20 @@
     }
 
     /* banner complete */
+
+    /* run extra  */
+    .run-extra-parent{
+        display: inline-block;
+    }
+    .run-extra-child{
+        flex-direction: column;
+        gap: 31px;
+    
+    }
+    .run-extra-grandchild-header{
+        font-size: 32px;
+    }
+    
+
     
 }
