@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    .banner-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-image-up1{
+        margin-top: -550px;
+        margin-left: 200px;
+    }
+    .banner-image-up2{
+        margin-top: -300px;
+        margin-left: 0px;
+    }
+
+    /* banner complete */
+    
+}
