@@ -89,7 +89,7 @@ header{
     border-radius: 20px;
     color: white;
     font-size: 15px;
-    font-weight: 600;
+    font-weight:700;
     background-color: #303030;
     border: 1px solid white;
 }
@@ -179,34 +179,13 @@ main{
 .maintain-child-header{
     color: white;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .maintain-child-description{
     font-size: 14px;
     font-weight: 400;
     color: var(--secondary-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* run extra section */
 
@@ -219,6 +198,7 @@ main{
     background-color: #222222;
     border-radius: 20px;
     padding: 10px;
+    margin-bottom: 50px;
 }
 .run-extra-grandchild{
     width: 400px;
@@ -245,4 +225,106 @@ main{
 .run-extra-grandchild-img img{
     width: 100%;
     border-radius: 20px;
+}
+
+/* bmi section */
+.bmi-section2{
+    margin-top: 50px;
+    background-color: #222222;
+}
+.bmi-section-parent{
+    display: flex;
+    text-align: center;
+    margin: 0 100px;
+    
+    
+}
+
+.bmi-section-head{
+    text-align: center;
+}
+.bmi-section-head-header{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+.bmi-section-head-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+.bmi-section-table{
+    width: 50%;
+    padding: 50px;
+}
+.bmi-section-table-header{
+    margin-left: -290px;
+    color: white;
+}
+th{
+    color: white;
+}
+
+table,th,tr,td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+
+
+}
+tbody{
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.bmi-section-form-head-header{
+    color: white;
+}
+.bmi-section-form-head-description{
+    font-size: 14px;
+    color: var(--secondary-color);
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 30px;
+}
+.bmi-section-form{
+    width: 50%;
+    padding: 50px;
+}
+input{
+    margin-bottom: 15px;
+    border: none;
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.select-one{
+    width: 200px;
+    border: none;
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 10px;
+}
+.select-two{
+    width: 400px;
+    border: none;
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Calculate{
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #303030;
+    background-color: var(--primary-color);
+    margin-top: 20px;
+    margin-right: 250px;
+
 }

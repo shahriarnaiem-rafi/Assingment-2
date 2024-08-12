@@ -12,8 +12,8 @@
         margin-left: 0px;
     }
 
-
     /* banner complete */
+      /* card section  */
     .maintain-container-head-header{
         font-size: 32px;
     }
@@ -21,9 +21,7 @@
         flex-direction: column;
     }
 
-    /* card section  */
-
-
+  
     /* run extra  */
     .run-extra-parent{
         display: inline-block;
@@ -35,8 +33,26 @@
     }
     .run-extra-grandchild-header{
         font-size: 32px;
-    }
-    
+    }  
 
-    
+    /* bmi section */
+
+   .bmi-section-parent{
+        flex-direction: column;
+   }
+   .bmi-section-table-header{
+        margin-right: -90px;
+   }
+   .bmi-section-table{
+    width: 400px;
+   }
+
+   .bmi-section-form{
+    margin-right: -90px;
+   }
+   input{
+   
+   }
+
+
 }
