@@ -143,6 +143,71 @@ header{
 main{
     background-color: black;
 }
+/* cards section */
+.maintain-container{
+    margin: 0 100px;
+}
+.maintain-container-head{
+
+    text-align: center;
+}
+.maintain-container-head-header{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+.maintain-container-head-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-bottom: 50px;
+}
+.maintain-cards{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+
+}
+.maintain-card{
+    text-align: center;
+}
+
+.maintain-card img{
+    border-radius: 50%;
+    border: 3px solid rgb(92, 91, 91);
+}
+.maintain-child-header{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.maintain-child-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* run extra section */
 
 .run-extra-child{ 

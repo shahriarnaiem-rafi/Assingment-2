@@ -12,7 +12,17 @@
         margin-left: 0px;
     }
 
+
     /* banner complete */
+    .maintain-container-head-header{
+        font-size: 32px;
+    }
+    .maintain-cards{
+        flex-direction: column;
+    }
+
+    /* card section  */
+
 
     /* run extra  */
     .run-extra-parent{
