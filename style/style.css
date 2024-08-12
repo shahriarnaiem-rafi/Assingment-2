@@ -1,0 +1,141 @@
+/*  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#E6533C;
+}
+
+/* nav section */
+header{
+    background-color: #303030;
+}
+.nav{
+    margin: 0px 100px;
+}
+.nav-main{   
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-main h4{
+    
+    font-size: 36px;
+    font-weight: 900;
+    color:var(--primary-color);
+    font-style: italic;
+    
+}
+
+.nav-menu> ul{
+    display: flex;
+    list-style-type: none;
+    
+    
+
+}
+.nav-menu> ul a{
+
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    color: white;
+    
+}
+.nav-menu> ul a span{
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 15px ;
+    color: #fff;
+}
+/* banner section */
+.banner-section{
+    margin-top: 5em;
+    display: flex;
+    align-content: center;
+    gap: 300px;
+}
+.banner-content{
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.banner-header{
+    font-size: 65px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+.banner-header span{
+    font-family: 'Miama', sans-serif;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+.banner-btn{
+    margin-top: 28px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    background-color: #303030;
+    border: 1px solid white;
+}
+#banner-btn{
+    background-color: var(--primary-color);
+    border: none;
+}
+.banner-img{
+    position: relative;
+}
+.banner-image-up1{
+    width:150px;
+    height: 100px;
+    background-color: #565555af;
+
+    padding: 5px 20px;
+    border-radius: 10px 10px;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 200px;
+
+}
+.banner-image-up2{
+    width:150px;
+    height: 100px;
+    background-color: #565555af;
+    
+    padding: 5px 20px;
+    border-radius: 10px 10px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -100px;
+   
+
+}
+.banner-image-up1 p{
+    color: #141414af;
+}
+.banner-image-up2 p{
+    color: #141414af;
+}
+.banner-image-up-header{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+.banner-image-up p{
+    color: #15151ab5;
+
+}
