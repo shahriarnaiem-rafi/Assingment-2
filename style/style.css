@@ -328,3 +328,52 @@ input{
     margin-right: 250px;
 
 }
+/* footer */
+footer{
+    background-color: #222222;
+}
+.footer-section-parent{
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 200px;
+   
+}
+.footer-section-child-header{
+    color: white;
+    font-size:32px ;
+    font-weight: 700;
+}
+.footer-section-child-description{
+    color: var(--secondary-color);
+    list-style: none;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 23px;
+
+
+}
+.footer-fitness{
+    font-size: 70px;
+    font-weight: 900;
+    
+    color: var(--primary-color);
+}
+
+.footer-fitness-description{
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    text-align: justify;
+}
+.final-footer{
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+hr{
+    margin: 0 100px;
+    border: .5px solid gray;
+}
