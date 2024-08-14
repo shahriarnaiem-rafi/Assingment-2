@@ -1,4 +1,5 @@
 @media screen and (max-width:576px) {
+    
     .sidenab-media{
         display: block;
         color: white;
@@ -20,7 +21,8 @@
     }
 
     /* banner complete */
-      /* card section  */
+
+    /* card section  */
     .maintain-container-head-header{
         font-size: 32px;
     }
@@ -36,7 +38,7 @@
     }
     .run-extra-child{
         flex-direction: column;
-        gap: 31px;
+        gap: 30px;
     
     }
     .run-extra-grandchild-header{
@@ -45,6 +47,15 @@
     .maintain-child-description{
         font-size: 14px;
         font-weight: 400;
+    }
+
+    /* select */
+    .select-one{
+        width: 200px;
+
+    }
+    .select-two{
+        width: 200px;
     }
 
     /* bmi section */
@@ -58,9 +69,18 @@
    .bmi-section-table{
     width: 400px;
    }
+   .bmi-section-form-head-description{
+    text-align:justify;
+    font-size: 10px;
+
+   }
 
    .bmi-section-form{
     margin-right: -90px;
+   }
+   .calculate-btn{
+    margin-right: 200px;
+    padding: 10px 30px;
    }
    /* trainer  */
    .team-section-img{
